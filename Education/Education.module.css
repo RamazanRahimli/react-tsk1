@@ -1,0 +1,7 @@
+.container {
+    background-color: aqua;
+    min-height: 85vh;
+    background-image: url("./slider_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

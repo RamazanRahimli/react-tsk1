@@ -1,0 +1,94 @@
+footer {
+  background-color: #EAF0FF;
+}
+
+.footerSummary {
+  display: flex;
+  justify-content: center;
+}
+
+.contentFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  width: 330px !important;
+}
+
+.informationContact {
+  width: 200px !important;
+}
+
+.marcodeDescription {
+  width: 300px !important;
+  text-align: start;
+}
+
+.btnContact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  color: #333;
+  background: none;
+  border: 2px solid red;
+  overflow: hidden;
+  font-family: Istok Web;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+}
+
+.marCode {
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  align-items: center;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .marCode {
+    justify-content: center !important;
+  }
+}
+
+.scrollUp {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.descriptionInformation {
+  display: flex;
+  gap: 25px;
+}
+
+.descriptionInformation p a {
+  text-decoration: underline !important;
+}
+
+.descriptionInformation p a {
+  text-decoration-line: underline;
+  color: #252525;
+  /* font-family: Inter; */
+  font-size: 18px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialMedias {
+  width: 100%;
+  justify-content: space-around;
+}

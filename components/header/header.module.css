@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* logo  */
+header .container .logoBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+header .container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* menuBox  */
+.menuBox {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.menuBox ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header .container nav .menuBox a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header .container nav .menuBox a:hover {
+    color: goldenrod;
+}
+
+/* phoneBox  */
+
+header .container .phone {
+    background-color: #FFB606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+header .container .phone  .phoneBox {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .container .phone  .phoneBox a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-weight: 300;
+}

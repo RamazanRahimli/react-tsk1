@@ -1,0 +1,144 @@
+#testimonials {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.testimonialsContainer {
+    position: relative;
+    width: 1303px;
+    height: 350px;
+    border-radius: 50px;
+    background: linear-gradient(107deg, #3760C3 1.26%, #1E3172 58.43%, #596DD0 91.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsContainer::after {
+    content: '';
+    position: absolute;
+    top: -99px;
+    left: 59.8%;
+    transform: translateX(-50%);
+    width: 177px;
+    z-index: 999;
+    height: 99px;
+    background-color: #fff;
+    border-radius: 47% 50%;
+}
+
+
+.imgLogo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    top: -4rem;
+    background-color: #233B84;
+}
+
+.imgLogo::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 140px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: #233B84;
+}
+
+.imgLogo::before {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: -36%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: #233B84;
+}
+
+.carrier {
+    color: #FFF;
+    max-width: 695px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.945%;
+}
+
+.logoHead {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoTestimonials {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 28px;
+    right: 22px;
+}
+
+.logoHead::after {
+    content: '';
+    position: absolute;
+    top: -34px;
+    left: -78%;
+    transform: translateX(-50%);
+    width: 177px;
+    z-index: 999;
+    height: 98px;
+    background-color: #fff;
+    border-radius: 56% 50%;
+}
+
+@media(max-width:992px) {
+    .testimonialsContainer::after {
+        content: none;
+    }
+
+    .imgLogo::after {
+        content: none;
+    }
+
+    .logoHead::after {
+        content: none;
+    }
+
+    .imgLogo::before {
+        content: none;
+    }
+
+}
+
+@media(max-width:576px) {
+.carrier {
+    font-size: 30px;
+}
+    
+    .logoTestimonials {
+        width: 60px;
+        height: 60px;
+    }
+}
